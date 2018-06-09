@@ -75,5 +75,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Telegram.Net.Core\Telegram.Net.Core.csproj">
+      <Project>{400d2544-1cc6-4d8a-a62c-2292d9947a16}</Project>
+      <Name>Telegram.Net.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
